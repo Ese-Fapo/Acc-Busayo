@@ -18,7 +18,9 @@ export default function TestimonialsSection() {
           {testimonials.map((item) => (
             <article key={item.name} className="testimonial-card">
               <div className="testimonial-card__top">
-                <div className="testimonial-card__google">G</div>
+                <div className="testimonial-card__google" aria-label="Google review">
+                  <span>G</span>
+                </div>
                 <p>{item.timeAgo}</p>
               </div>
 
