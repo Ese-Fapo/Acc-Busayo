@@ -17,7 +17,7 @@ export default function ContactSection() {
           <article className="contact-card contact-card--info">
             <div className="contact-card__meta">
               <span>Fast response</span>
-              <span>Trusted Nation-wide</span>
+              <span>Trusted Nationwide</span>
             </div>
             <h3>Get in touch</h3>
             <p>

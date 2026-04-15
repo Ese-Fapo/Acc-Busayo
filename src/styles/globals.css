@@ -980,6 +980,15 @@ h2 {
   padding: 1rem;
 }
 
+.footer__credit-link {
+  color: var(--google-blue);
+  font-weight: 600;
+}
+
+.footer__credit-link:hover {
+  color: #174ea6;
+}
+
 .scroll-top {
   position: fixed;
   right: 1rem;

@@ -46,7 +46,17 @@ export default function Footer() {
         </div>
       </Container>
       <p className="footer__copyright">
-        © {new Date().getFullYear()} Acc. Busayo. All rights reserved.
+        © {new Date().getFullYear()} Acc. Busayo. All rights reserved. This site
+        was created by{" "}
+        <a
+          className="footer__credit-link"
+          href="https://sitesprofissionai.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          sitesprofissionai.com
+        </a>
+        .
       </p>
     </footer>
   );
